@@ -1,4 +1,21 @@
 # Differentiable-Time-Varying-IIR-Filtering-for-Real-Time-Speech-Denoising
+# Differentiable Time-Varying IIR Filtering for Real-Time Speech Denoising
+
+## 1. Introduction
+
+Speech signals captured in real-world environments are often corrupted
+by noise. Traditional filtering methods struggle with non-stationary
+noise. Differentiable time-varying IIR (Infinite Impulse Response)
+filtering combines digital signal processing with deep learning to
+adaptively denoise speech in real-time.
+
+## 2. Objective
+
+-   To design a differentiable IIR filter
+-   To enable time-varying coefficients
+-   To support real-time speech denoising
+-   To allow end-to-end training using gradient-based optimization
+
 (#INTRODUCTION )
 Speech denoising is an essential task in modern audio processing systems such as mobile 
 communication, hearing aids, and voice assistants. In real-world environments, speech 
